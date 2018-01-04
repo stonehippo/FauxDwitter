@@ -38,7 +38,7 @@ let c,x,t;
 const FauxDwitter = {
     interval:null,
     f:null,
-    init(id, reset, counter) {
+    init(id = "dweet", reset = "reset", counter = "counter") {
         c = document.getElementById(id);
         x = c.getContext('2d');
         c.width = 2e3;
