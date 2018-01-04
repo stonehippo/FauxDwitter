@@ -52,7 +52,7 @@ const FauxDwitter = {
             u(t);
             t += 0.01667;
             this.counter.innerHTML = `Seconds since start: ${t}`;
-        }, 16.667);
+        }, 16.667); //run ~60fps; this is a hack that could probably be improved
     },
     reset() {
         clearInterval(this.interval);
