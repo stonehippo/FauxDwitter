@@ -29,8 +29,8 @@ const S = a => Math.sin(a);
 const C = a => Math.cos(a);
 const T = a => Math.tan(a);
 
-/* RGB rgba string generator */
-const R = (r, g, b, a) => `rgba(${r},${g},${b},${a})`;
+/* RGB rgba string generat{or */
+const R = (r, g, b, a = 1) =>  rgba = `rgba(${~~r},${~~g},${~~b},${a})`;
 
 /* Expose the canvas, its 2D context, and the current running time in seconds globally */
 let c,x,t;
